@@ -6,9 +6,8 @@ function openNav() {
 
 const Preload = document.getElementById("preloader")
 setTimeout(() => {
-    console.log("Delayed for 1 second.");
-
+    document.body.classList.remove("overflow-hidden");
     Preload.classList.add("trns")
-
 }, "3000");
+
 

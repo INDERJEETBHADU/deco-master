@@ -829,7 +829,7 @@ ul {
     }
 
     .overflow_hidden {
-        overflow: hidden;
+        overflow: hidden !important;
     }
 
     .menu span:nth-child(1) {
